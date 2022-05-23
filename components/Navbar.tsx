@@ -7,7 +7,7 @@ import { Fragment } from 'react'
 const navigations = [
   {
     name: 'Blog',
-    link: 'https://sakana-blog.vercel.app',
+    link: 'https://notion-blog-template.vercel.app',
   },
 ]
 
@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <header className="flex p-6 z-10 items-center justify-between primary-text">
       <Link href="/" passHref>
-        <a>Sakana</a>
+        <a>Username</a>
       </Link>
       <div className="flex space-x-4 items-center">
         <nav className="flex space-x-4 items-center hidden sm:block">

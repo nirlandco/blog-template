@@ -20,8 +20,8 @@ const Blog: NextPage<{ posts: BlogPosts }> = ({ posts }) => {
   return (
     <div>
       <Head>
-        <title>Blog - Sakana</title>
-        <meta name="description" content="tech blog" />
+        <title>Blog - Username</title>
+        <meta name="description" content="blog" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
