@@ -13,16 +13,19 @@ module.exports = {
       'avatars1.githubusercontent.com',
       'avatars2.githubusercontent.com',
       'avatars3.githubusercontent.com',
-      'aquanir.cc',
-      'nir.land',
-      'nirvanazhu.com'
+      'cdn.nir.land',
+      'cn.cdn.nir.land',
+      'assets.aquanir.cc',
+      'quickview.aquanir.cc',
+      'image.nirland.net'
     ]
   },
   webpack(config) {
     config.plugins.push(new WindiCSSWebpackPlugin())
     return config
   },
-  redirects: [
+  async redirects() {
+    return [
     {
       source: "/posts/index.xml",
       destination: "/feed",
@@ -32,6 +35,7 @@ module.exports = {
       source: "/feed.xml",
       destination: "/feed",
       permanent: false
-    }
+    },
   ]
+},
 }
