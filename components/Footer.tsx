@@ -2,9 +2,9 @@ const Footer = () => {
   return (
     <footer className="text-xs text-center p-6 primary-text">
       <div>
-        Username &copy; {new Date().getFullYear()}
+        nirvanazhu &copy; {new Date().getFullYear()}
       </div>
-      <div>Powered by Notion, Next.js & Vercel.</div>
+      <div>Demo site. Powered by Notion & Next.js.</div>
     </footer>
   )
 }
